@@ -50,7 +50,7 @@ export default function About() {
             {/* Experience Badge */}
             <div className="glass-card absolute -bottom-6 -right-4 rounded-2xl px-6 py-4 text-center shadow-gold-glow sm:-right-8">
               <p className="text-gradient-gold font-display text-3xl font-bold">
-                ২৫+
+                15+
               </p>
 
               <p className="text-xs text-moon/70">
@@ -81,7 +81,7 @@ export default function About() {
           <ScrollReveal delay={0.1}>
             <p className="mt-6 leading-relaxed text-moon/80">
               তিন প্রজন্ম ধরে জ্যোতিষ সাধনায় নিয়োজিত এক পরিবারের উত্তরসূরি
-              সুمن চক্রবর্তী ছোট থেকেই বৈদিক জ্যোতিষ ও সংস্কৃত শাস্ত্রে
+              সুমন চক্রবর্তী ছোট থেকেই বৈদিক জ্যোতিষ ও সংস্কৃত শাস্ত্রে
               দীক্ষিত। কলকাতা সংস্কৃত কলেজ থেকে জ্যোতিষে উচ্চশিক্ষা লাভের পর
               গত পঁচিশ বছর ধরে তিনি হাজারো মানুষের জীবনের জটিল সিদ্ধান্তে
               আলোর দিশা দেখিয়েছেন।

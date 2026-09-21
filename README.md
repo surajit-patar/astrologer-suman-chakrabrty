@@ -13,6 +13,8 @@ UI, and full Bengali typography.
 - **Fonts** — Hind Siliguri (body), Noto Sans Bengali (utility), Noto Serif Bengali (display),
   loaded via `next/font/google`
 
+
+
 ## Getting started
 
 ```bash
