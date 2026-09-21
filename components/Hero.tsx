@@ -62,7 +62,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="eyebrow mb-5 text-xs font-semibold uppercase text-gold-soft/90 sm:text-sm"
         >
-          বৈদিক জ্যোতিষ · কুণ্ডলী · প্রতিকার
+          নিউমেরোলজি · কুণ্ডলী · প্রতিকার
         </motion.p>
 
         <motion.h1

@@ -5,7 +5,8 @@ export const siteInfo = {
   //phone: "+৯১ ৯৮৩০০ ০০০০০ (প্লেসহোল্ডার)",
   phoneEn: "+91-9064745699",
   email: "sumanchakrabrty369@gmail.com",
-  address: "GALSI SATYAJITPALLI NEAR AIRCEL TOWER BARDHAMAN, Galsi, India, West Bengal",
+  address:
+    "GALSI SATYAJITPALLI NEAR AIRCEL TOWER BARDHAMAN, Galsi, India, West Bengal",
   whatsapp: "+91-9064745699",
   mapEmbed: " গলসি, বর্ধমান",
 };
@@ -16,7 +17,6 @@ export const navLinks = [
   { href: "#zodiac", label: "রাশিচক্র" },
   { href: "#process", label: "পদ্ধতি" },
   { href: "#testimonials", label: "মতামত" },
-  { href: "#gallery", label: "গ্যালারি" },
   { href: "#faq", label: "প্রশ্নোত্তর" },
   { href: "#contact", label: "যোগাযোগ" },
 ];
@@ -65,18 +65,102 @@ export const services = [
 ];
 
 export const zodiacSigns = [
-  { bn: "মেষ", en: "Aries", symbol: "♈", dates: "১৪ এপ্রিল – ১৪ মে", element: "অগ্নি", trait: "সাহসী ও নেতৃত্বপ্রবণ" },
-  { bn: "বৃষ", en: "Taurus", symbol: "♉", dates: "১৫ মে – ১৪ জুন", element: "পৃথিবী", trait: "স্থির ও ধৈর্যশীল" },
-  { bn: "মিথুন", en: "Gemini", symbol: "♊", dates: "১৫ জুন – ১৫ জুলাই", element: "বায়ু", trait: "বুদ্ধিদীপ্ত ও বাক্‌পটু" },
-  { bn: "কর্কট", en: "Cancer", symbol: "♋", dates: "১৬ জুলাই – ১৬ আগস্ট", element: "জল", trait: "সংবেদনশীল ও যত্নশীল" },
-  { bn: "সিংহ", en: "Leo", symbol: "♌", dates: "১৭ আগস্ট – ১৬ সেপ্টেম্বর", element: "অগ্নি", trait: "তেজস্বী ও আত্মবিশ্বাসী" },
-  { bn: "কন্যা", en: "Virgo", symbol: "♍", dates: "১৭ সেপ্টেম্বর – ১৬ অক্টোবর", element: "পৃথিবী", trait: "বিশ্লেষণী ও নিখুঁত" },
-  { bn: "তুলা", en: "Libra", symbol: "♎", dates: "১৭ অক্টোবর – ১৫ নভেম্বর", element: "বায়ু", trait: "ভারসাম্যপ্রিয় ও কূটনৈতিক" },
-  { bn: "বৃশ্চিক", en: "Scorpio", symbol: "♏", dates: "১৬ নভেম্বর – ১৫ ডিসেম্বর", element: "জল", trait: "গভীর ও দৃঢ়সংকল্প" },
-  { bn: "ধনু", en: "Sagittarius", symbol: "♐", dates: "১৬ ডিসেম্বর – ১৪ জানুয়ারি", element: "অগ্নি", trait: "স্বাধীনচেতা ও অভিযাত্রিক" },
-  { bn: "মকর", en: "Capricorn", symbol: "♑", dates: "১৫ জানুয়ারি – ১২ ফেব্রুয়ারি", element: "পৃথিবী", trait: "পরিশ্রমী ও লক্ষ্যস্থির" },
-  { bn: "কুম্ভ", en: "Aquarius", symbol: "♒", dates: "১৩ ফেব্রুয়ারি – ১৩ মার্চ", element: "বায়ু", trait: "উদ্ভাবনী ও মানবপ্রেমী" },
-  { bn: "মীন", en: "Pisces", symbol: "♓", dates: "১৪ মার্চ – ১৩ এপ্রিল", element: "জল", trait: "কল্পনাপ্রবণ ও সহানুভূতিশীল" },
+  {
+    bn: "মেষ",
+    en: "Aries",
+    symbol: "♈",
+    dates: "১৪ এপ্রিল – ১৪ মে",
+    element: "অগ্নি",
+    trait: "সাহসী ও নেতৃত্বপ্রবণ",
+  },
+  {
+    bn: "বৃষ",
+    en: "Taurus",
+    symbol: "♉",
+    dates: "১৫ মে – ১৪ জুন",
+    element: "পৃথিবী",
+    trait: "স্থির ও ধৈর্যশীল",
+  },
+  {
+    bn: "মিথুন",
+    en: "Gemini",
+    symbol: "♊",
+    dates: "১৫ জুন – ১৫ জুলাই",
+    element: "বায়ু",
+    trait: "বুদ্ধিদীপ্ত ও বাক্‌পটু",
+  },
+  {
+    bn: "কর্কট",
+    en: "Cancer",
+    symbol: "♋",
+    dates: "১৬ জুলাই – ১৬ আগস্ট",
+    element: "জল",
+    trait: "সংবেদনশীল ও যত্নশীল",
+  },
+  {
+    bn: "সিংহ",
+    en: "Leo",
+    symbol: "♌",
+    dates: "১৭ আগস্ট – ১৬ সেপ্টেম্বর",
+    element: "অগ্নি",
+    trait: "তেজস্বী ও আত্মবিশ্বাসী",
+  },
+  {
+    bn: "কন্যা",
+    en: "Virgo",
+    symbol: "♍",
+    dates: "১৭ সেপ্টেম্বর – ১৬ অক্টোবর",
+    element: "পৃথিবী",
+    trait: "বিশ্লেষণী ও নিখুঁত",
+  },
+  {
+    bn: "তুলা",
+    en: "Libra",
+    symbol: "♎",
+    dates: "১৭ অক্টোবর – ১৫ নভেম্বর",
+    element: "বায়ু",
+    trait: "ভারসাম্যপ্রিয় ও কূটনৈতিক",
+  },
+  {
+    bn: "বৃশ্চিক",
+    en: "Scorpio",
+    symbol: "♏",
+    dates: "১৬ নভেম্বর – ১৫ ডিসেম্বর",
+    element: "জল",
+    trait: "গভীর ও দৃঢ়সংকল্প",
+  },
+  {
+    bn: "ধনু",
+    en: "Sagittarius",
+    symbol: "♐",
+    dates: "১৬ ডিসেম্বর – ১৪ জানুয়ারি",
+    element: "অগ্নি",
+    trait: "স্বাধীনচেতা ও অভিযাত্রিক",
+  },
+  {
+    bn: "মকর",
+    en: "Capricorn",
+    symbol: "♑",
+    dates: "১৫ জানুয়ারি – ১২ ফেব্রুয়ারি",
+    element: "পৃথিবী",
+    trait: "পরিশ্রমী ও লক্ষ্যস্থির",
+  },
+  {
+    bn: "কুম্ভ",
+    en: "Aquarius",
+    symbol: "♒",
+    dates: "১৩ ফেব্রুয়ারি – ১৩ মার্চ",
+    element: "বায়ু",
+    trait: "উদ্ভাবনী ও মানবপ্রেমী",
+  },
+  {
+    bn: "মীন",
+    en: "Pisces",
+    symbol: "♓",
+    dates: "১৪ মার্চ – ১৩ এপ্রিল",
+    element: "জল",
+    trait: "কল্পনাপ্রবণ ও সহানুভূতিশীল",
+  },
 ];
 
 export const process = [
@@ -149,12 +233,30 @@ export const stats = [
 ];
 
 export const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?q=80&w=800&auto=format&fit=crop", alt: "রাতের আকাশে তারার মেলা" },
-  { src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop", alt: "নীহারিকা ও নক্ষত্রপুঞ্জ" },
-  { src: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?q=80&w=800&auto=format&fit=crop", alt: "চন্দ্রের ছবি" },
-  { src: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=800&auto=format&fit=crop", alt: "গ্যালাক্সির দৃশ্য" },
-  { src: "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=800&auto=format&fit=crop", alt: "মহাকাশের গভীরে তারা" },
-  { src: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=800&auto=format&fit=crop", alt: "রাতের আকাশে ছায়াপথ" },
+  {
+    src: "https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?q=80&w=800&auto=format&fit=crop",
+    alt: "রাতের আকাশে তারার মেলা",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop",
+    alt: "নীহারিকা ও নক্ষত্রপুঞ্জ",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?q=80&w=800&auto=format&fit=crop",
+    alt: "চন্দ্রের ছবি",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=800&auto=format&fit=crop",
+    alt: "গ্যালাক্সির দৃশ্য",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=800&auto=format&fit=crop",
+    alt: "মহাকাশের গভীরে তারা",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=800&auto=format&fit=crop",
+    alt: "রাতের আকাশে ছায়াপথ",
+  },
 ];
 
 export const faqs = [
@@ -196,5 +298,9 @@ export const chambers = [
   {
     title: "বর্ধমান চেম্বার",
     location: "বর্ধমান, পূর্ব বর্ধমান",
+  },
+  {
+    title: "Online Consult",
+    location: "Phone Call/Google Meet",
   },
 ];
